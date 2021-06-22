@@ -1,0 +1,24 @@
+<html>
+    <body>
+        <h1>Tapestry Time</h1>
+            <p>The current time is <span jwcid="time">high noon</span>!</p>
+
+        <form jwcid="@Form" listener="listener:formSubmit">
+            <h2>Select format:</h2>
+            <p>
+                <span jwcid="@PropertySelection"
+                        model="ognl:@com.codeprep.time.Home@FORMAT_MODEL"
+                        value="ognl:formatString">
+                    <select>
+                        <option value="0" selected="selected">h:mm a</option>
+                        <option value="1">EEE, MMM d, ''yy</option>
+                    </select>
+                </span>
+            </p>
+
+            <p>
+                <img jwcid="@ImageSubmit" image="asset:btn_submit" alt="Submit" src="images/btn-submit.gif"/>
+            </p>
+        </form>
+    </body>
+</html>
