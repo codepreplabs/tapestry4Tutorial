@@ -11,3 +11,5 @@ buildNumber.properties
 .mvn/wrapper/maven-wrapper.jar
 01tapestry/01tapestry.iml
 01tapestry/.idea/
+02implicitCompDecleration/02implicitCompDecleration.iml
+02implicitCompDecleration/.idea/
